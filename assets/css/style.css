@@ -6,6 +6,24 @@
     font-family: athene;
     src: url(../fonts/Athene\ 400.otf);
 }
-h1 {
+body {
     font-family: athene;
+    margin: 0;
 }
+header nav ul {
+    border-bottom: 1px solid #282b29;
+    
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li:nth-of-type(2) {
+    padding-left: 50%;
+}
+
+/* Matja Unterstrich 
+text-align: center;
+border-bottom: 1px solid #002a5a;
+width: 60%;
+margin: 0 auto;
+font-size: 8em; */
